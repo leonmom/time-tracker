@@ -15,6 +15,9 @@ import java.util.List;
 @ComponentScan("training.taylor.timetracker.core")
 public class TrackerCoreConfig {
 
+    /**
+     * is it okay?
+     */
     @Bean(name = "timesheet")
     public List<TimeEntry> timeEntries() {
         return new ArrayList<>();
